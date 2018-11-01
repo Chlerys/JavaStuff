@@ -1,0 +1,53 @@
+/*import java.util.Scanner;
+
+public class TeZoekenGetal {
+    public static void main(String[] args) {
+        int tezoekengetal;
+        int gok;
+        Scanner keyboard = new Scanner(System.in);
+        tezoekengetal = 66;
+        while (true){
+            System.out.print("Geef een getal ");
+            gok = keyboard.nextInt();
+            if (gok == tezoekengetal){
+                System.out.print("Proficiat!! U heeft het getal geraden");
+                return;
+            }
+            if (gok < tezoekengetal){
+                System.out.print("Te laag!");
+            }
+            if (gok > tezoekengetal){
+                System.out.print("Te hoog!");
+            }
+        }
+
+    }
+}
+*/
+
+
+
+import java.util.Scanner;
+
+public class TeZoekenGetal {
+    public static void main(String[] args) {
+        int teZoekenGetal;
+        int gok;
+        Scanner keyboard = new Scanner(System.in);
+        teZoekenGetal = 56;
+        while (true){
+            System.out.print("Geef een getal: ");
+            gok = keyboard.nextInt();
+            if (gok == teZoekenGetal) {
+                System.out.print("Proficiat u hebt het geraden!");
+                return;
+            }
+            if (gok < teZoekenGetal) {
+                System.out.print("Te klein! ");
+            }
+            if (gok > teZoekenGetal) {
+                System.out.print("Te groot! ");
+            }
+        }
+    }
+}
